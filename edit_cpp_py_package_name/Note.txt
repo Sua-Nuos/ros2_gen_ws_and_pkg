@@ -1,0 +1,9 @@
+source: https://roboticsbackend.com/ros2-package-for-both-python-and-cpp-nodes/
+
+Python test
+1: ros2 run my_cpp_py_pkg py_node.py
+2: ros2 service call /add_three_ints my_robot_interfaces/srv/AddThreeInts "{ a:1, b:1, c:1}"
+
+
+Cpp test
+ros2 run my_cpp_py_pkg cpp_executable
